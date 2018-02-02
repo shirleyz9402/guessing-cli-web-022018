@@ -10,5 +10,5 @@ def run_guessing_game
     elsif number.to_i != comp
       puts "The computer guessed #{comp}."
     end 
-  end 
+  
 end 
