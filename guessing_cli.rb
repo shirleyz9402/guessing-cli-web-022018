@@ -4,6 +4,8 @@ def run_guessing_game
   comp = rand(1..6)
   if number == comp
     puts "You guessed the correct number!"
+  elsif number == "exit"
+    puts "Goodbye!"
   else 
     puts "The computer guessed #{comp}."
   end 
