@@ -3,13 +3,8 @@ def run_guessing_game
   number = gets.chomp
   comp = rand(1..6)
   loop do
-  if number.to_i == comp
-    puts "You guessed the correct number!"
-  elsif number == "exit"
-    puts "Goodbye!"
-    break
-  else 
-    puts "The computer guessed #{comp}."
-  end 
-end 
-end
+    if number == "exit"
+      puts "Goodbye!"
+      break
+    elsif number == comp
+      puts ""
