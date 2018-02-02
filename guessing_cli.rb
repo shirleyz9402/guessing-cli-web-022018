@@ -4,7 +4,7 @@ def run_guessing_game
   comp = rand(1..6)
     if number == "exit"
       puts "Goodbye!"
-      break
+      
     elsif number.to_i == comp
       puts "You guessed the correct number!"
     elsif number.to_i != comp
