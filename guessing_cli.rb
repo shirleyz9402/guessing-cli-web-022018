@@ -3,13 +3,11 @@ def run_guessing_game
   number = gets.chomp
   comp = rand(1..6)
   until number == "exit"
-    if number == "exit"
-      puts "Goodbye!"
-      break
-    elsif number.to_i == comp
+    if number.to_i == comp
       puts "You guessed the correct number!"
     elsif number.to_i != comp
       puts "The computer guessed #{comp}."
     end 
   end 
+  puts "Goodbye!"
 end 
