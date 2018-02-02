@@ -9,4 +9,7 @@ def run_guessing_game
     elsif number == comp
       puts "You guessed the correct number!"
     elsif number !== comp
-      puts ""
+      puts "The computer guessed #{comp}."
+    end 
+  end 
+end 
