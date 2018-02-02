@@ -7,4 +7,6 @@ def run_guessing_game
       puts "Goodbye!"
       break
     elsif number == comp
+      puts "You guessed the correct number!"
+    elsif number !== comp
       puts ""
