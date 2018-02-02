@@ -8,7 +8,7 @@ def run_guessing_game
       break
     elsif number.to_i == comp
       puts "You guessed the correct number!"
-    elsif number.to_i !== comp
+    elsif number.to_i != comp
       puts "The computer guessed #{comp}."
     end 
   end 
